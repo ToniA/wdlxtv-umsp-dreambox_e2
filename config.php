@@ -1,6 +1,6 @@
 <?php
 
-# meta-name="DREAMBOX-E2"
+# meta-name="Dreambox E2"
 # meta-desc="Dreambox E2"
 # meta-author="Toni"
 # meta-date="2010-05-03"
@@ -11,13 +11,14 @@
 # meta-id="dreambox-e2"
 
 $pluginInfo = array (
-    'name'      => 'DREAMBOX-E2',
-    'desc'      => 'Dreambox E2',
-    'author'    => 'toni',
-    'date'      => '2010-05-03',
-    'version'   => '0.2',
-    'url'       => 'http://forum.wdlxtv.com/viewtopic.php?f=53&t=320',
-    'id'        => 'dreambox-e2',
+	'name'		=> 'Dreambox E2',
+	'desc'		=> 'Dreambox E2',
+	'author'	=> 'toni',
+	'date'		=> '2010-05-03',
+	'version'	=> '0.2',
+	'url'		=> 'http://forum.wdlxtv.com/viewtopic.php?f=53&t=320',
+	'id'		=> 'dreambox-e2',
+	'art'		=> 'http://lh3.ggpht.com/_xJcSFBlLg_Y/TRLW3H10jUI/AAAAAAAAAHw/ZfICTGOW6q0/dreambox-e2.png',
 );
 
 # _DONT_RUN_CONFIG_ gets set by external scripts that just want to get the pluginInfo array via include() without running any code. Better solution?
