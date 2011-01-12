@@ -1,4 +1,4 @@
-s<?php
+<?php
 
        include_once('/usr/share/umsp/funcs-config.php');
        include('info.php');
