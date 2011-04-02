@@ -9,14 +9,14 @@
 		// Insert badge if we have one
 		if ((isset($pluginInfo['thumb']))&&($pluginInfo['thumb']!=''))
 		{
-			$desc = '<div style="float: left;"><img src="'.$pluginInfo['thumb'].'" width="60" height="60" alt="logo"></div>'
+			$desc = '<div style="float: left; padding: 4px 10px 4px 4px;"><img src="'.$pluginInfo['thumb'].'" width="60" height="60" alt="logo"></div>'
 				.'<div>'.$pluginInfo['name']." v".$pluginInfo['version']." (".$pluginInfo['date'].") by "
 				.$pluginInfo['author'].".<br>".$pluginInfo['desc']."<br>Information: <a href='".$pluginInfo['url']."'>".$pluginInfo['url']."</a>"
 				.'</div>';
 		}
 		elseif ((isset($pluginInfo['art']))&&($pluginInfo['art']!=''))
 		{
-			$desc = '<div style="float: left;"><img src="'.$pluginInfo['art'].'" width="60" height="60" alt="logo"></div>'
+			$desc = '<div style="float: left; padding: 4px 10px 4px 4px;"><img src="'.$pluginInfo['art'].'" width="60" height="60" alt="logo"></div>'
 				.'<div>'.$pluginInfo['name']." v".$pluginInfo['version']." (".$pluginInfo['date'].") by "
 				.$pluginInfo['author'].".<br>".$pluginInfo['desc']."<br>Information: <a href='".$pluginInfo['url']."'>".$pluginInfo['url']."</a>"
 				.'</div>';
