@@ -8,6 +8,10 @@
 # meta-url="http://forum.wdlxtv.com/viewtopic.php?f=53&t=320"
 # meta-filename="dreambox-e2.php"
 # meta-id="dreambox-e2"
+# meta-basefirmware="*"
+# meta-thumbnail="http://lh3.ggpht.com/_xJcSFBlLg_Y/TRLW3H10jUI/AAAAAAAAAHw/ZfICTGOW6q0/s200/dreambox-e2.png"
+# meta-rating="General"
+# meta-category="Entertainment"
 
 # .1 revision is the split of info.php and the addition of badge art
 	$pluginInfo = array (
